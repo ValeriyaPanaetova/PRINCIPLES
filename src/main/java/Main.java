@@ -8,11 +8,11 @@ public class Main {
         post.surname = "Иванов";
 
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
 
-        post.subscription = "true";
+        post.subscription = true;
 
         System.out.println(post.subscription);
     }
